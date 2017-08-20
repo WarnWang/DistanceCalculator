@@ -27,7 +27,7 @@ def calculate_shortest_distance_between_point_state(point_x, point_y, state_name
 
     min_dis = float('inf')
     for y, x in rec.shape.points:
-        dis = vincenty((point_x, point_y), (x, y))
+        dis = vincenty((point_x, point_y), (x, y), miles=False)
         min_dis = min(dis, min_dis)
 
     return min_dis

@@ -6,6 +6,8 @@ a simple function
 
 The above is used to calculate the distance between (35, -77) and Maine state
 
+The unit is kilometer.
+
 prerequisites:
 1. vincenty (https://pypi.python.org/pypi/vincenty/0.1.4)
 2. pyshp (https://pypi.python.org/pypi/pyshp)
